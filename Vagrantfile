@@ -14,7 +14,7 @@ Vagrant.configure(2) do |config|
     v.linked_clone = true
     # v.gui = true
     v.cpus = 1
-    v.memory = "4096"
+    v.memory = "1024"
     v.customize ['modifyvm', :id, '--clipboard', 'bidirectional'] 
   end
  

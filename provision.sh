@@ -13,4 +13,4 @@ apt-get install git -y -q
 
 echo "Installing java, android and node..."
 apt-get install openjdk-8-jre openjdk-8-jdk -y -q
-
+apt-get install adb -y -q
