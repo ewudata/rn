@@ -16,6 +16,7 @@ Vagrant.configure(2) do |config|
     v.cpus = 1
     v.memory = "1024"
     v.customize ['modifyvm', :id, '--clipboard', 'bidirectional'] 
+    v.customize ["setextradata", :id, "VBoxInternal2/SharedFoldersEnableSymlinksCreate/repo", "1"]
   end
  
   config.vm.provision "shell", path: "provision.sh"

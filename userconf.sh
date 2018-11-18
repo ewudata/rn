@@ -11,3 +11,5 @@ npm install -g react-native-cli
 npm install expo-cli --global
 
 echo "export env REACT_NATIVE_PACKAGER_HOSTNAME=192.168.0.101">>/home/vagrant/.profile
+
+# sudo mount --bind  /home/vagrant/testApp/node_modules/ /home/vagrant/repo/sravastiabbey/node_modules/
